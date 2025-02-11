@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent   # project ko root directory
 SECRET_KEY = 'django-insecure-^3!k1bwv^y&woz3dzq2!t7$sbn90a!t3ucq%w=tf_7#5aw1dly'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True   ### development mode ma matra true garne, tara deploy garda Fals garne
+DEBUG = True   ### development mode ma matra true garne, tara deploy garda False garne
 
 ALLOWED_HOSTS = []    ## ['*'] ; * means all
 
