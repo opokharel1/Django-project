@@ -8,5 +8,12 @@ class Education(models.Model):
     year = models.DateField()
     
     def __str__(self):
-        return f"{self.school} - {self.degree} - {self.year}"
+        return f"{self.school} - {self.degree}"
     
+class Experience(models.Model):
+    company = models.CharField(max_length=100)
+    position = models.CharField(max_length=100)
+    year = models.DateField()
+
+    def __str__(self):
+        return f"{self.company} - {self.position}"
