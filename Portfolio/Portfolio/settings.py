@@ -33,10 +33,10 @@ ALLOWED_HOSTS = []    ## ['*'] ; * means all
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
-    'django.contrib.contenttypes',  # templates handle 
+    'django.contrib.contenttypes',            # templates handle 
     'django.contrib.sessions',
-    'django.contrib.messages',   # wrong password garda, message, or user add garda 
-    'django.contrib.staticfiles',  # templates ma css, images, or any static file handle garne   .... we 
+    'django.contrib.messages',                      # wrong password garda, message, or user add garda 
+    'django.contrib.staticfiles',         # templates ma css, images, or any static file handle garne   .... we 
     "portfolioapp",
 ]
 
